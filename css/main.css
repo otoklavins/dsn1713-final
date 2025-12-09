@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --bs-primary: #A3BDBD;
+    --bs-primary-rgb: 163, 189, 189;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
 }
@@ -7,6 +12,10 @@ body {
 h1, h2, h3{
    font-family: "Bricolage Grotesque", sans-serif; 
    text-transform: uppercase;
+}
+
+h3 {
+    color: red;
 }
 
 .navbar {
@@ -29,10 +38,14 @@ h1, h2, h3{
     height: 600px;
 }
 
-/* img {
-    border: 2px solid black;
-    border-radius: 1%;
-} */
+#about-hero {
+    background-image: url(../images/about_us_hero.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
 
 footer {
     border-top: 3px solid red;
