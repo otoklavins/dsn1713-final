@@ -9,7 +9,7 @@ h1, h2, h3{
    text-transform: uppercase;
 }
 
-.nav-underline {
+.navbar {
     border-bottom: 3px solid red;
 }
 
@@ -19,5 +19,17 @@ h1, h2, h3{
     background-position: center;
     background-size: cover;
     height: 900px;
+}
+
+#menu-hero {
+    background-image: url(../images/menu_hero.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+footer {
+    border-top: 3px solid red;
 }
 
