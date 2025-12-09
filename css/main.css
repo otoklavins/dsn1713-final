@@ -1,8 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #B4CACA;
+    --bs-btn-border-color: #B4CACA;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #94a5a5;
+    --bs-btn-hover-border-color: #94a5a5;
+    --bs-btn-active-bg: #B4CACA;
+    --bs-btn-active-border-color: #B4CACA;
+}
+
+.btn-danger {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #861F29;
+    --bs-btn-border-color: #861F29;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #5a151c;
+    --bs-btn-hover-border-color: #5a151c;
+    --bs-btn-active-bg: #861F29;
+    --bs-btn-active-border-color: #861F29;
+}
+
 :root {
     --bs-primary: #A3BDBD;
     --bs-primary-rgb: 163, 189, 189;
+    --bs-secondary: #D8E6E9;
+    --bs-secondary-rgb: 216, 230, 233;
+    --bs-danger: #861F29;
+    --bs-danger-rgb: 134, 31, 41;
+    --main-red: #861F29;
 }
 
 body {
@@ -15,11 +42,11 @@ h1, h2, h3{
 }
 
 h3 {
-    color: red;
+    color: var(--main-red);
 }
 
 .navbar {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid var(--main-red);
 }
 
 #home-hero {
@@ -48,6 +75,6 @@ h3 {
 
 
 footer {
-    border-top: 3px solid red;
+    border-top: 3px solid var(--main-red);
 }
 
